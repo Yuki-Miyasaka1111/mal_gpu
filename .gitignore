@@ -1,0 +1,10 @@
+
+data/interim
+data/processed
+data/raw
+data/raw_copy
+data/temp
+
+logs/
+
+myenv/
