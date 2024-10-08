@@ -56,7 +56,7 @@ def extract_all_zips(input_folder, output_folder):
     print("すべての解凍が完了しました。")
 
 # 入力フォルダと出力フォルダのパスを設定
-input_folder = '/workspaces/mal_gpu/data/interim/extract_family/Stop'
+input_folder = '/workspaces/mal_gpu/data/interim/extract_family/RangerLocker'
 output_folder = '/workspaces/mal_gpu/data/interim/extract_all_data_v2'
 
 # ZIPファイルを再帰的に解凍

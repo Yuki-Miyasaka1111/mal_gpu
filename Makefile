@@ -27,8 +27,8 @@ extract_instructions:
 	# python3 /workspaces/mal_gpu/src/data/extract_instructions.py
 
 fix_json:
-	# nohup python3 /workspaces/mal_gpu/src/data/fix_json.py > logs/fix_json.log 2>&1 &
-	python3 /workspaces/mal_gpu/src/data/fix_json.py
+	nohup python3 /workspaces/mal_gpu/src/data/fix_json.py > logs/fix_json_v2.log 2>&1 &
+	# python3 /workspaces/mal_gpu/src/data/fix_json.py
 
 fix_json_for_json_file:
 	python3 /workspaces/mal_gpu/src/data/fix_json_for_json_file.py
